@@ -7,18 +7,21 @@ package com.pjmike.list;
  * @create 2018-03-08 21:42
  */
 public class ListNode {
-    private int data;
+    private Object data;
     private ListNode next;
 
     public ListNode(int data) {
         this.data = data;
     }
 
-    public int getData() {
+    public ListNode() {
+    }
+
+    public Object getData() {
         return data;
     }
 
-    public void setData(int data) {
+    public void setData(Object data) {
         this.data = data;
     }
 

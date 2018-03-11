@@ -168,11 +168,11 @@ public class ListDemo {
      */
     public int listLength(ListNode headNode) {
         int length = 0;
-        while (headNode.getNext() != null) {
+        ListNode temp = headNode;
+        while (temp != null) {
             length++;
-            headNode = headNode.getNext();
+            temp = temp.getNext();
         }
         return length;
     }
-
 }
