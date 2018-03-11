@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8236541-03f1-497e-a97a-56e31f256bdb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/pjmike/stack/StackByList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/pjmike/exception/EmptyQueueException.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/pjmike/list/ListDemo.java" afterPath="$PROJECT_DIR$/src/main/java/com/pjmike/list/ListDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/pjmike/list/ListNode.java" afterPath="$PROJECT_DIR$/src/main/java/com/pjmike/list/ListNode.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StackByList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StackByList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pjmike/stack/StackByList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-120">
@@ -57,6 +55,35 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#1802#1803#0" expanded="true" />
                 <element signature="e#1833#1834#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListQueue.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pjmike/queue/ListQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-748">
+              <caret line="31" column="39" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#546#547#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmptyQueueException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pjmike/exception/EmptyQueueException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+              <folding>
+                <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,6 +133,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/pjmike/list/ListDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pjmike/list/ListNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pjmike/stack/StackByList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pjmike/exception/EmptyQueueException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pjmike/queue/ListQueue.java" />
       </list>
     </option>
   </component>
@@ -204,6 +233,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="队列&#9;null&#9;null" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -313,12 +343,12 @@
       <workItem from="1520515934404" duration="3524000" />
       <workItem from="1520598553688" duration="1342000" />
       <workItem from="1520644009438" duration="7377000" />
-      <workItem from="1520730544970" duration="1377000" />
+      <workItem from="1520730544970" duration="2843000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13620000" />
+    <option name="totallyTimeSpent" value="15086000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
@@ -497,6 +527,31 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1802#1803#0" expanded="true" />
             <element signature="e#1833#1834#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pjmike/exception/EmptyQueueException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding>
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pjmike/queue/ListQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-748">
+          <caret line="31" column="39" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
           </folding>
         </state>
       </provider>
